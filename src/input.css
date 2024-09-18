@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link{
+    @apply relative text-dark text-lg font-medium duration-300;
+}
+
+.link::after,
+.link.active::after{
+    content: "";
+    @apply absolute -bottom-1 left-0 scale-0 w-full h-1 rounded-full bg-primary duration-300 origin-left;
+}
+
+.link:hover,
+.link.active,
+.link:hover::after,
+.link.active::after{
+    @apply text-primary scale-95;
+}
+
+h1.title{
+    @apply text-dark text-5xl md:text-7xl font-extrabold;
+}
+
+h2.title{
+    @apply text-dark text-4xl md:text-5xl font-extrabold;
+}
+
+p.para {
+    @apply text-dark text-lg;
+}

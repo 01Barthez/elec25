@@ -26,7 +26,6 @@
         <meta name="twitter:description" content="Prenez part aux élections présidentielles camerounaises de 2025 en votant en ligne.">
         <meta name="twitter:image" content="https://votre-site.com/images/election2025.png">
 
-
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/public/favicon_io/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon_io/favicon-32x32.png">
@@ -41,6 +40,124 @@
         <link rel="stylesheet" href="./output.css">
     </head>
     <body class="text-">
-        
+        <!-- Banner -->
+         <section class="">
+            <!-- Navbar -->
+            <nav class="container relative flex items-center justify-between py-5">
+                <!-- Logo -->
+                 <a href="#" class="max-w-20 md:max-w-fit">
+                    <img src="./assets/logo.svg" alt="Logo">
+                 </a>
+
+                 <!-- NavLinks and Tools -->
+                <div class="items-center hidden gap-4 md:flex">
+                    <!-- NavLinks -->
+                    <ul class="flex items-center gap-10">
+                        <li>
+                            <a href="#" class="link active">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="link">Candidats</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="link">Bureaux&nbsp;de&nbsp;vote</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="link">Resultats</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Tools -->
+                <div class="items-center hidden gap-6 md:flex">
+                    <!-- Language Setting -->
+                    <button class="flex items-center p-1 text-xs font-medium duration-200 border rounded-md group text-dark hover:text-primary border-primary">
+                        <span>FR</span>
+                        <img src="./assets/icons/chevron-down.svg" alt="chevron-down" class="transform duration-200 group-hover:translate-y-[1px]">
+                    </button>
+
+                    <!-- CTA button -->
+                    <button class="w-fit px-10 py-3 text-xl font-medium text-white rounded-lg bg-primary hover:bg-primary/95">
+                        Inscription
+                    </button>
+                </div>
+                
+                <button class="block p-1 md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#0f172a" fill="none">
+                        <path d="M20 12L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M20 5L4 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M20 19L4 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </nav>    
+            
+            <!-- Layout -->
+            <div class="hidden md:block absolute -top-36 -left-40 w-96 h-96 bg-gradient-to-br from-primary/0 to-primary/5 rounded-full"></div>
+            
+            <!-- BANNER -->
+            <section class="container relative flex flex-col md:flex-row gap-14 md:gap-20 py-20">
+
+                <!-- Layout -->
+                <div class="md:block blur-3xl absolute top-0 right-3 w-72 h-72 bg-gradient-to-tr from-primary/0 to-primary/5 rounded-full"></div>
+                
+                <!-- Left Side -->
+                <div class="relative max-w-screen-md flex flex-col gap-8">
+                    <!-- Title -->
+                    <span class="text-lg font-bold text-primary">
+                        Election 2025, 
+                    </span>
+
+                    <h1 class="title">
+                        Votons tous, meme en ligne !!!
+                    </h1>
+
+                    <!-- Paragraph -->
+                    <p class="para">
+                        Déjà des milliers de citoyens inscrits pour attendre le jour des elections; Qu’est ce que tu attends ?
+                    </p>
+                    
+                    <!-- CTA button -->
+                    <button class="w-fit px-10 py-3 text-xl font-medium text-white rounded-lg bg-primary hover:bg-primary/95">
+                        Votez Maintenant
+                    </button>
+
+                <!-- Layout -->
+                <div class="hidden md:block absolute top-0 right-3 w-24 h-24 bg-gradient-to-tr from-primary/5 to-primary/45 rounded-full"></div>
+                <div class="hidden md:block absolute -bottom-36 left-48 w-72 h-72 bg-gradient-to-tr from-primary/0 to-primary/5 rounded-full"></div>
+
+                </div>
+                
+                <!-- Right Side -->
+                <div class="relative max-w-md w-full p-6">
+                    <img src="./assets/pngwing.com(5).png" alt="Hero Right" class="w-full h-full object-contain">
+                </div>
+            </section>            
+        </section>
+
+        <!-- Demo -->
+        <section class="container max-w-screen-md py-20 gap-10 flex flex-col items-center">
+            <h2 class="title text-center">
+                Comment voter en ligne ?
+            </h2>
+
+            <p class="para text-center">
+                Petite videos pour vous montrer comment en quelques minutes vous pouvez élire votre futur président en toute anonymat et en toute sécurité.
+            </p>
+
+            <!-- Video -->
+            <div class="relative w-full">
+                <!-- <iframe width="100%" height="453" src="https://www.youtube.com/embed/DsoOAS0-UxY" title="Je vote en ligne : mode d&#39;emploi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                <iframe width="100%" height="587" src="https://www.youtube.com/embed/ob0x5xbSMdk" title="Ça sert à quoi de voter blanc ? #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="absolute bottom-0 left-4">
+                    <h3 class="text-3xl font-bold text-dark">Petite video explicative</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors -->
     </body>
 </html>

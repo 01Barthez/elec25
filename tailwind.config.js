@@ -5,8 +5,7 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
+        DEFAULT: '2rem',
         lg: '3rem',
         xl: '4rem',
         '2xl': '5rem',
@@ -17,6 +16,7 @@ module.exports = {
       primary: "#3E71DF",
       dark: "#0F172A",
       secondary: "#001135",
+      white: "#fff",
     },
     extend: {},
   },
