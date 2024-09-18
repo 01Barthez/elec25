@@ -5,7 +5,7 @@
 
 ## Demo
 
-Image
+![Preview](src/assets/preview.png)
 
 [preview here](https://github.com/01Barthez)
 
