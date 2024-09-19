@@ -7,7 +7,7 @@
 
 ![Preview](src/assets/preview.png)
 
-[preview here](https://github.com/01Barthez)
+[preview here](https://elec25.vercel.app/)
 
 ## Objectifs du projet
 
@@ -40,7 +40,7 @@ Les contributions sont les bienvenues. Si vous souhaitez contribuer :
 
 ## Déploiement
 
-Le site sera déployé via [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) pour assurer un accès rapide et sécurisé à tous les utilisateurs
+Le site sera déployé Sur [Vercel](https://vercel.com) pour assurer un accès rapide et sécurisé à tous les utilisateurs
 
 ## Contact
 
